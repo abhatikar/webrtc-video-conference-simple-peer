@@ -39,7 +39,7 @@ const configuration = {
  * UserMedia constraints
  */
 let constraints = {
-    audio: false,
+    audio: true,
     video: {
         width: {
             max: 300
